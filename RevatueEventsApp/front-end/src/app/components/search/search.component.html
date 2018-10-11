@@ -1,0 +1,5 @@
+<!-- Search form -->
+<div class="md-form">
+    <input id="searchBar" class="form-control" type="text" placeholder="Search" aria-label="Search" [(ngModel)]="searchParam"/>
+    <button style="position: absolute; right:250px; top:13px;" id="searchButton" type="button" class="btn btn-dark" (click)="search()" routerLink="search-results">Search</button>
+</div>
