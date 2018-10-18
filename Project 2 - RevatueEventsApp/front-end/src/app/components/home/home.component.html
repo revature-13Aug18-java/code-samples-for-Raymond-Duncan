@@ -1,0 +1,102 @@
+<app-image-banner></app-image-banner>
+<!-- Page Content -->
+<div class="p-3 mb-2 bg-warning text-dark" class="container">
+
+  <h1 class="my-2"> <strong> Featured Events: </strong> </h1>
+
+  <!-- Marketing Icons Section -->
+
+  <div *ngIf="eventsToDisplay" class="row">
+    <div *ngFor="let event of eventsToDisplay" class="col-lg-4 mb-4">
+      <div class="card h-100">
+          <h4 class="p-3 mb-2 bg-danger text-info" class="card-header"><i>{{event.name}}</i></h4>
+          <div class="card-body">
+            <p>{{event.description}}</p>
+          </div>
+          <div class="card-footer">
+              <a (click)="goToEvent(event.id)" class="btn btn-outline-warning">Learn More</a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--
+  <div class="row">
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
+        <h4 class="p-3 mb-2 bg-danger text-info" class="card-header"><i>MUSIC FESTIVAL</i></h4>
+        <div class="card-body">
+          <p class="text-info" class="card-text">CHARLOTTESVILLE CHAMBER MUSIC FESTIVAL Venue: The Paramount Theater, Old
+            Cabell Hall, PVCC, Live Arts Price: $6.00 students, $18.00, $26.00 Date: 09/10/2018 and additional dates Location:
+            Charlottesville
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-outline-warning">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
+        <h4 class="p-3 mb-2 bg-danger text-info" class="card-header"><i>MUSEUM OF ART</i></h4>
+        <div class="card-body">
+          <p class="text-info" class="card-text">TOUCHING THE SACRED Venue: William King Museum of Art Date: 03/30/2018 -
+            09/16/2018 Location: Abingdon
+          </p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-outline-info">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
+        <h4 class="p-3 mb-2 bg-danger text-info" class="card-header"><i>ART MUSEUM</i></h4>
+        <div class="card-body">
+          <p class="text-info" class="card-text">MONDAY CRAFTERNOON Venue: Art Museums of Colonial Williamsburg Date: 09/10/2018
+            and 09/17/2018 Location: Williamsburg</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-outline-warning">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
+        <h4 class="p-3 mb-2 bg-danger text-info" class="card-header"><i>BEER GARDEN</i></h4>
+        <div class="card-body">
+          <p class="text-info" class="card-text">ACOUSTIC SUNDAYS IN THE BEER GARDEN Venue: The Virginia Beer Company Date:
+            09/10/2018 and additional dates Location: Williamsburg</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-outline-info">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
+        <h4 class="p-3 mb-2 bg-danger text-info" class="card-header"><i>MORNING YOGA</i></h4>
+        <div class="card-body">
+          <p class="text-info" class="card-text">MONDAY MORNING YOGA Venue: Crystal City Water Park Date: 09/10/2018 and
+            additional dates Location: Arlington</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-outline-warning">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <div class="card h-100">
+        <h4 class="p-3 mb-2 bg-danger text-info" class="card-header"><i>WOOD CARVING</i></h4>
+        <div class="card-body">
+          <p class="text-info" class="card-text">WOOD CARVING Venue: Big Stone Gap Visitor Center Date: 09/11/2018 and additional
+            dates Location: Big Stone Gap</p>
+        </div>
+        <div class="card-footer">
+          <a href="#" class="btn btn-outline-info">Learn More</a>
+        </div>
+      </div>
+    </div>
+    -->
+  </div>
