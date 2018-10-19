@@ -1,8 +1,8 @@
 ## RaysBank Application 
 A console based banking application which allowed the user to withdraw and deposit theoretical money into various managed accounts. Users can create different types of accounts. They can also transfer money between accounts. 
 
-Full Repository:
-https://github.com/genesisb17/1807Jul30Java/tree/Raymond_Duncan/Raymond_Duncan_Code/Projects/raysbank
+Full Repository: \
+https://github.com/RaymondKADuncan/RevatureProjects/tree/master/raysbank
 
 ### Roles / Responsabilities
 * Sole developer of the app
