@@ -1,6 +1,9 @@
 ## Revature Events
 The Revature Events App is a new way to gather and organize as a Revature employee. It enables the employees of Revature to create, view, and attend events and get to know eachother in a more casual setting than the day to day workplace. The end goals are to create a more cohesive company culture, to support morale, and to allow the users to build a community persists even outside of the workplace.
 
+Full Repository: \
+https://github.com/RaymondKADuncan/RevatureEventsApp
+
 ### Roles / Responsibilities
 * Lead team through daily scrum meetings
 * Facilitated project planning and organization utilizing planning poker and Trello
