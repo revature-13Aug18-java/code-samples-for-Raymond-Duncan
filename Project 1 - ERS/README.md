@@ -1,6 +1,9 @@
 ## The Expense Reimbursement System(ERS)
 The Expense Reimbursement System (ERS) manages the process of reimbursing employees for expenses incurred while on company time. All employees in the company can login and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.
 
+Full Repository: \
+https://github.com/genesisb17/1807Jul30Java/tree/Raymond_Duncan/Raymond_Duncan_Code/Projects/ers
+
 ### Roles / Responsibilities
 * Utilized Angular to build a responsive one page application
 * Incorporated CSS to stylize web components 
